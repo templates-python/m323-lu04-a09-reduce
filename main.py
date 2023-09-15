@@ -1,12 +1,10 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+from functools import reduce
+
+def factorial(n):
+    # Ihr Code hier
+    pass
 
 
 if __name__ == '__main__':
-    calculate()
+    result = factorial(5)
+    print(result)  # Sollte 120 ausgeben
