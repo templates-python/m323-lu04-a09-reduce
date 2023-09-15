@@ -2,7 +2,9 @@ from functools import reduce
 
 def factorial(n):
     # Ihr Code hier
-    pass
+    if n == 0:
+        return 1
+    return reduce(lambda x, y: x * y, range(1, n + 1))
 
 
 if __name__ == '__main__':
