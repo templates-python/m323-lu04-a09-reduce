@@ -1,5 +1,6 @@
 from functools import reduce
 
+
 def factorial(n):
     # Ihr Code hier
     pass
